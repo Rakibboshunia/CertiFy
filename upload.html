@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Upload - CertiFy</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">CF</div>
+      <div>
+        <div class="brand">CertiFy</div>
+        <div class="small">Upload Certificate</div>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="upload.html" class="active">Upload</a>
+        <a href="verify.html">Verify</a>
+        <a href="admin.html">Admin</a>
+      </nav>
+    </div>
+
+    <div class="card">
+      <h3>Upload Certificate</h3>
+      <p class="small">Choose a certificate file (PDF/JPG/PNG) and upload it. The UI will send file to IPFS and prepare a transaction to record the CID/hash on blockchain.</p>
+
+      <div>
+        <label>Student Name</label>
+        <input id="studentName" class="input" placeholder="Student Full Name" />
+        <label>Institution</label>
+        <input id="institution" class="input" placeholder="Institute name" />
+        <label>Certificate File</label>
+        <input id="fileInput" type="file" class="input" />
+        <div style="height:10px"></div>
+        <button id="uploadBtn" class="btn">Upload to IPFS & Save</button>
+        <div id="uploadStatus" style="margin-top:12px"></div>
+      </div>
+    </div>
+
+    <div class="footer small">Note: replace IPFS & smart contract logic inside js/upload.js</div>
+  </div>
+
+  <script src="js/app.js"></script>
+  <script src="js/upload.js"></script>
+</body>
+</html>

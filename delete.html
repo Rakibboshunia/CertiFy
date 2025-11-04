@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Delete - CertiFy</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">CF</div>
+      <div>
+        <div class="brand">CertiFy</div>
+        <div class="small">Delete Entry</div>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="upload.html">Upload</a>
+        <a href="verify.html">Verify</a>
+        <a href="admin.html">Admin</a>
+      </nav>
+    </div>
+
+    <div class="card">
+      <h3>Delete certificate (Admin)</h3>
+      <p class="small">Enter TxHash or CID to mark as deleted (demo-only). Real deletion requires admin smart-contract function or backend.</p>
+      <input id="delq" class="input" placeholder="Enter TxHash or CID" />
+      <div style="height:10px"></div>
+      <button id="delBtn" class="btn">Delete</button>
+      <div id="delStatus" style="margin-top:10px"></div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+  <script src="js/delete.js"></script>
+</body>
+</html>
