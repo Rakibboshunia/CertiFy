@@ -1,3 +1,4 @@
+
 /* js/delete.js */
 const delBtn = document.getElementById('delBtn');
 const delStatus = document.getElementById('delStatus');
