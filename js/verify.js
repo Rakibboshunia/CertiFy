@@ -1,3 +1,4 @@
+
 /* js/verify.js */
 const verifyBtn = document.getElementById('verifyBtn');
 const result = document.getElementById('result');
