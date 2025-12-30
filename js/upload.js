@@ -1,3 +1,4 @@
+
 /* js/upload.js */
 const fileInput = document.getElementById('fileInput');
 const uploadBtn = document.getElementById('uploadBtn');
