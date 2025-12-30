@@ -1,3 +1,4 @@
+
 /* js/admin.js - demo table */
 const certTableBody = document.querySelector('#certTable tbody');
 const demoData = [
